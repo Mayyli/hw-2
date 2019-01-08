@@ -36,7 +36,6 @@ Mkfile.old
 dkms.conf
 .idea
 cmake-build-*/
-matrix.txt
 .idea/**/mongoSettings.xml
 *.iws
 out/
