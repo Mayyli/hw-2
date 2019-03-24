@@ -19,10 +19,10 @@ int main() {
     s = realloc(s, strlen(s) + 1);
     char splintStrings[10][10];
 
-    int j,cnt;
+    int j,cnt,k;
     j=0;
     cnt = 0;
-
+    k=0;
     for(int i=0;i<=(strlen(s));i++){
         if (s[i]==' ' || s[i] =='\0' ){
             splintStrings[cnt][j]='\0';
